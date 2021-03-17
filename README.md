@@ -48,7 +48,7 @@
 
 - 为了保障运行速度，OCR模型采用LSTM模型，基于tensorflow框架，权重位于dist\ recognition系列。经训练，承接数字检测模型的输入，输出该区域的数值，具体地，由于输入区域本身存在较多噪点和污染，为了减少错误率，OCR模型并未学习小数点“.”的表示，因此对于例如“22.00”的区域会识别为“2200”，只需要添加部分后处理（除以100，保留两位有效数字）即可变成正确值。
 
-![Hough Transform](https://github.com/GaoKangYu/Water-Level-Recognition-With-OCR/blob/main/readme_fig/Hough Transform.png)
+![Hough Transform](https://github.com/GaoKangYu/Water-Level-Recognition-With-OCR/blob/main/readme_fig/Hough_Transform.png)
 
 - 至此，综合（1）的分情况处理，已经完成了0.1的识别精度。最后0.01的精度基于霍夫变换，其结果如下，受参数和环境因素影响大，较为不稳定。
 
