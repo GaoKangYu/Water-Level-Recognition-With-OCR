@@ -10,13 +10,12 @@
 
 ## 代码目录结构TBD
 ```
-├── CRAFT(弯曲文本检测模型)
-│   ├── basenet
-│   ├── data(印章原始数据)
-│   ├── fail_log(用于保存后处理过程中出现的异常)
-│   ├── polar-img(仿射矫正后的正常语序印章文本)
-│   ├── result(CRAFT模型原始检测结果)
-│   ├── imgproc.py(包含自定义后处理，实现根据result文件夹中的原始输出，经处理生成polar-img中的仿射矫正后的正常语序印章文本)
+├── Hough(霍夫变换检测直线)
+├── LSTM-OCR(基于LSTM模型的OCR方法，包含部分权重)
+├── Number_detect_dataset(用于训练数字检测模型YOLO v3的数据集)
+├── Post_Process_Result(OCR模型输出)
+├── data_for_ocr_train(用于训练OCR模型的数据集)
+├── demo(演示系统源码与可执行文件下载地址)
 ├── TPS(模糊文本识别模型)
 ├── creat_dataset(用于生成合成数据集，训练TPS模型)
 ```
@@ -106,7 +105,19 @@ c.未检测到非刻度区数字，由于不知道尺的默认高度，目前无
 ### 演示系统
 - 以下为演示系统效果展示（基于PyQt，CPU-only）
 - 本系统设置了授权限时，如需运行需要手动更改系统时间为2020年10月1日以前
-- TBD
+- 系统ui
 
-- 
+![ui](https://github.com/GaoKangYu/Water-Level-Recognition-With-OCR/blob/main/readme_fig/ui.png)
+
+- 选取图片
+
+![load_img](https://github.com/GaoKangYu/Water-Level-Recognition-With-OCR/blob/main/readme_fig/load_img.png)
+
+- 显示选取图片
+
+![show_img](https://github.com/GaoKangYu/Water-Level-Recognition-With-OCR/blob/main/readme_fig/show_img.png)
+
+- 识别结果
+
+![result](https://github.com/GaoKangYu/Water-Level-Recognition-With-OCR/blob/main/readme_fig/result.png)
 
