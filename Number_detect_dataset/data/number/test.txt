@@ -1,0 +1,7 @@
+F:/5_WaterLevel/Number_detect_dataset/data/number/images/120.jpg
+F:/5_WaterLevel/Number_detect_dataset/data/number/images/123.jpg
+F:/5_WaterLevel/Number_detect_dataset/data/number/images/130.jpg
+F:/5_WaterLevel/Number_detect_dataset/data/number/images/151.jpg
+F:/5_WaterLevel/Number_detect_dataset/data/number/images/157.jpg
+F:/5_WaterLevel/Number_detect_dataset/data/number/images/166.jpg
+F:/5_WaterLevel/Number_detect_dataset/data/number/images/174.jpg
