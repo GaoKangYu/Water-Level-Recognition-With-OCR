@@ -1,0 +1,4 @@
+model_checkpoint_path: "lstm_ctc_model.ctpk-47300"
+all_model_checkpoint_paths: "lstm_ctc_model.ctpk-44700"
+all_model_checkpoint_paths: "lstm_ctc_model.ctpk-46900"
+all_model_checkpoint_paths: "lstm_ctc_model.ctpk-47300"
