@@ -1,5 +1,8 @@
 # Water-Level-Recognition-With-OCR
 基于OCR的“水位检测”项目
+## TBD
+- [ ] English version README
+
 ## 背景/需求
 - 使用OCR方法，基于水位尺，读出水位数值，预期精度0.01。
 ## 环境需求
