@@ -8,7 +8,7 @@
 -   tensorflow-gpu >= 1.14.0
 -   cuda >= 10.0
 
-## 代码目录结构TBD
+## 代码目录结构
 ```
 ├── Hough(霍夫变换检测直线)
 ├── LSTM-OCR(基于LSTM模型的OCR方法，包含部分权重)
